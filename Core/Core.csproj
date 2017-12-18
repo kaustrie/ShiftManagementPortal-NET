@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>ShiftManagementPortal.Core</RootNamespace>
+    <AssemblyName>ShiftManagementPortal.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Model\Enumeration\" />
+    <Folder Include="Domain\Rules\Validations\" />
+    <Folder Include="Service\Implementation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
